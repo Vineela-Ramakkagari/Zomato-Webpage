@@ -41,6 +41,18 @@ body {
     cursor:pointer;
 }
 
+.container {
+    padding:20px 20px;
+}
+
+.hero__image__container {
+    width:100%;
+}
+
+.hero__image {
+    width:100%
+}
+
 @media (min-width:768px) {
     .navbar {
         justify-content: space-between;
@@ -60,8 +72,8 @@ body {
         width: 180px;
     }
     .nav__item {
-        padding: 20px;
-        font-size: 20px;
+        padding: 17px;
+        font-size: 17px;
     }
 }
 
