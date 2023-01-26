@@ -5,8 +5,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zomato-Webpage</title>
   </head>
@@ -17,14 +15,64 @@
             <img src="Zomato-logo.png" alt="logo" class="navbar__logo">
         </div>
         <div class="navbar__nav__items">
-            <button class="nav__item">Order Food</button>
+            <button class="nav__item button__primary">Order Food</button>
         </div>
       </nav>
     </header>
     <main class="container">
-      <section class="hero__image__cointainer">
-        <div class="hero__image">
-          <img src="hero-image.jpg" alt="hero image">
+      <section class="hero__container">
+        <div class="hero__image__container">
+          <img src="hero-image (1).jpg" alt="hero image" class="hero__image" >
+        </div>
+        <div class="hero__description">
+          <h1 class="hero__text">
+            Order food from favourite restaurants near you
+          </h1>
+          <button class="button__primary">Order Now</button>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- Explore Menu -->
+      <section class="explore__menu__container">
+        <h1 class="explore__menu__text">Explore our menu</h1>
+        <div class="explore__menu__gradient__bg">
+
+        </div>
+        <div class="explore__menu__list">
+          <!--Fried Chicken-->
+          <div class="food__card" >
+            <div class="foof__card__image__container">
+              <img src="chicken.jpg" alt="Fried Chicken" class="food__image">
+            </div>
+            <div class="food__card__description">
+              <h3 class="food__title">Fried Chicken</h3>
+              <p>Swaad, Zoya's Kitchen, Barbeque Chicken<span style="color:#D83A56">+3</span> </p>
+            </div>
+          </div>
+          <!--Pizza-->
+          <div class="food__card" id="pizza__card">
+            <div class="foof__card__image__container">
+              <img src="pizza.jpg" alt="Pizza" class="food__image">
+            </div>
+            <div class="food__card__description">
+              <h3 class="food__title">Pizza</h3>
+              <p>Pizza Hut, Domino's Pizza<span style="color:#D83A56">+3</span> </p>
+            </div>
+          </div>
+
+          <!--Veg Rolls-->
+          <div class="food__card">
+            <div class="foof__card__image__container">
+              <img src="veg rolls.jpg" alt="Veg Roll" class="food__image">
+            </div>
+            <div class="food__card__description">
+              <h3 class="food__title">Veg Roll</h3>
+              <p>Melting Hearts, Pole <span style="color:#D83A56">+3</span> </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
