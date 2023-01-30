@@ -99,11 +99,7 @@ body {
         margin-top: 40px;
         display: flex;
         gap: 15px;
-        padding: 0 30px;
-    }
-
-    .food__image {
-        padding: 20px;
+        padding:30px;
     }
 
     .navbar {
